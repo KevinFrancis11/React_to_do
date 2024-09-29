@@ -1,0 +1,97 @@
+body{
+  padding:0 5rem;
+  margin: 0;
+  background-color: black;
+}
+
+.to-do-list{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+}
+
+h2,h3,h4,h5,p{
+   margin-top: 20px;
+   color : white
+}
+
+button{
+  font-size: 1.7rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:  background-color 0.5s ease; 
+}
+
+.add-button{
+  background-color: rgb(95, 220, 38);
+}
+
+.add-button:hover{
+  background-color: green;
+}
+
+.delete-button{
+  background-color: rgb(232, 71, 71);
+}
+
+.delete-button:hover{
+  background-color: rgb(170, 50, 50);
+}
+
+.move-button{
+  background-color: rgb(69, 191, 239);
+}
+
+.move-button:hover{
+  background-color: rgb(29, 99, 154);
+}
+
+input[type="text"]{
+  font-size: 1.6rem;
+  margin-right: 5px;
+  padding: 10px;
+  border: 2px solid rgba(155, 151, 151, 0.539);
+  border-radius: 5px;
+  color: rgb(159, 153, 153);
+}
+
+ol{
+  padding: 0;
+}
+
+li{
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 15px;
+  background-color: rgba(249, 247, 247, 0.908);
+  margin-bottom: 10px;
+  border: 3px solid rgba(163, 160, 160, 0.425);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.text{
+  /* flex: 1; this is for the text to take as much as space possible
+     flex-grow:1;
+     flex-shrink: 1;
+     flex-basis: 0%;
+     these three are called flex: 1
+  */
+  flex: 1;
+}
+
+.delete-button, .move-button{
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
